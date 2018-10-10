@@ -1,0 +1,367 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row, p {
+    margin: 0;
+}
+
+.menu {
+    box-shadow: 0px 2px 18px #888888;
+}
+
+.nav1 {
+    font-family: LatoRegular;
+    color: #fff;
+    font-size: 15px;
+    background-color: #ce0393;
+}
+
+.nav1 ul {
+    list-style-type: none;
+}
+
+.nav1 ul li {
+    float: left;
+    border-left: 1px solid rgba(255, 255, 255, 0.76);
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    font-family: LatoRegular;
+    color: #fff;
+    font-size: 15px;
+    padding: 0px 6px;
+}
+
+.nav2 {
+    background-color: #fff;
+}
+
+.nav2 .fa-bars {
+    color: #707070;
+}
+
+.nav2 .navbar-brand span {
+    color: #ce0393 !important;
+}
+
+.nav2 .navbar-brand {
+    font-family: LatoBlack !important;
+}
+
+.menu #navbarNav ul li a {
+    font-family: LatoBold;
+    color: #0e0e0e;
+}
+
+.top-social {
+    list-style-type: none;
+}
+
+.top-social li {
+    float: left;
+    padding: 0 4%;
+}
+
+.top-social li a {
+    color: #ce0393;
+}
+
+/*...................*/
+
+/*...................*/
+
+.highlightpost {
+    background-color: #f1f1f1;
+}
+
+.highlightpost .card-img {
+    border-radius: 0;
+}
+
+.highlightpost .card-img-overlay {
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0!important;
+    left: 0;
+    padding: 1.25rem;
+}
+
+.highlightpost .post1 {
+    border: none!important;
+    border-bottom: 8px solid #ce0393 !important;
+    border-radius: 0!important;
+}
+
+.highlightpost .post1 h5 a {
+    text-decoration: none;
+    color: #fff;
+    font-family: LatoBold;
+    font-size: 26px;
+}
+
+.highlightpost .post1 p.card-text {
+    color: #fff;
+    font-family: LatoRegular;
+    font-size: 17px;
+}
+
+.highlightpost .post2 {
+    border: none!important;
+    border-radius: 0!important;
+}
+
+.highlightpost .post2 p.badge {
+    position: absolute;
+    top: 6%;
+    right: 4%;
+}
+
+.highlightpost .post2 h5 a {
+    text-decoration: none;
+    color: #fff;
+    font-family: LatoBold;
+    font-size: 20px;
+}
+
+/*...................*/
+
+/*...................*/
+
+.postbody .breakingnews {
+    font-family: LatoRegular;
+    font-size: 16px;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.postbody .breakingnews span {
+    font-family: LatoBlack;
+    color: #ce0393;
+}
+
+.postbody .postext {
+    font-family: LatoRegular;
+    font-size: 15px;
+    color: #8e8e8e;
+}
+
+
+.postbody .epost1, .epost2, .rsidep {
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.postbody .rsidep h6 a {
+    text-decoration: none;
+    font-family: LatoBold;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.postbody .rsidep .date {
+    font-family: LatoRegular;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.postbody .epost2 h5 a {
+    text-decoration: none;
+    font-family: LatoBold;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.postbody .epost2 .date, .upcp .date {
+    font-family: LatoRegular;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.postbody .upcp h5 a {
+    text-decoration: none;
+    font-family: LatoBold;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
+
+/*...................*/
+
+/*....................*/
+
+.authorchoice {
+    background-color: #f1f1f1;
+}
+
+.authorchoice .heading {
+    font-family: LatoBlack;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #454343;
+}
+
+.authorchoice .subheading {
+    font-family: LatoRegular;
+    font-size: 20px;
+    color: #8e8e8e;
+}
+
+.authorchoice .card {
+    border: none!important;
+    border-radius: 0!important;
+}
+
+.authorchoice .card h5 a {
+    text-decoration: none;
+    color: #000;
+    font-family: LatoBold;
+    
+}
+
+.authorchoice .card .date {
+    font-family: LatoRegular; 
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*....................*/
+
+/*...................*/
+
+.footer1 {
+    background-color: #242424;
+}
+
+.footer2 {
+    background-color: #191919;
+}
+
+.footer2 .navbar-brand {
+    font-family: LatoRegular;
+    font-size: 13px;
+    color: #fff;
+}
+
+.footer2 #navbarNav ul li a {
+    font-family: LatoRegular;
+    font-size: 13px;
+    color: #fff;
+}
+
+.about h1 {
+    font-family: LatoBlack;
+    font-size: 35px;
+    color: #fff;
+}
+
+.about .atext {
+    font-family: LatoRegular;
+    font-size: 16px;
+    color: #8e8e8e;
+}
+
+.about a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.about a:hover {
+    color: #ce0393;
+}
+
+.bottom-social {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0!important;
+}
+
+.bottom-social li {
+    float: left;
+    padding: 0 5%;
+}
+
+.bottom-social li a {
+    font-size: 26px;
+    color: #ce0393;
+}
+
+.post h1 {
+    font-family: LatoBlack;
+    font-size: 35px;
+    color: #fff;
+}
+
+.post .media {
+    border-bottom: 1px solid #454545;
+}
+
+.post h6 a {
+    text-decoration: none;
+    font-family: LatoBlack;
+    font-size: 18px;
+    color: #fff;
+}
+
+.badge-danger {
+    font-family: LatoRegular;
+    font-size: 12.82px;
+    padding: 4px 6px;
+    background-color: #ce0393!important;
+    border-radius: 24px;
+}
+
+.post .date {
+    font-family: LatoRegular;
+    font-size: 15px;
+    color: #fff;
+}
+
+.newcate h1 {
+    font-family: LatoBlack;
+    font-size: 35px;
+    color: #fff;
+}
+
+.newcate form {
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #454545;
+}
+
+.newcate form input {
+    font-family: LatoRegular;
+    font-size: 15px;
+    color: #8c8c8c;
+    border: none;
+    border-radius: 24px;
+}
+
+.newcate form button {
+    font-family: LatoBlack;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 24px;
+    background-color: #ce0393!important;
+}
+
+.newcate .categories {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.newcate .categories li a {
+    display: block;
+    text-decoration: none;
+    font-family: LatoRegular;
+    font-size: 15px;
+    color: #fff;
+    padding: 12px 0px;
+}
+
+
+/*..................*/

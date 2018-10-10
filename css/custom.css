@@ -1,0 +1,57 @@
+@font-face {
+    font-family: LatoRegular;
+    src: url(../fonts/webfonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoBlack;
+    src: url(../fonts/webfonts/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: LatoBold;
+    src: url(../fonts/webfonts/Lato-Bold.ttf);
+}
+
+@media (max-width: 650px) {
+    .nav1 {
+        display: none;
+    }
+    .nav2 #navbarNav {
+        display: none;
+        margin-left: 0!important;
+    }
+    
+    .nav2 .menubar {
+        text-align: left!important;
+    }
+    
+    .top-social {
+        padding-left: 0px!important;
+    }
+    
+    .footer2 .fnav {
+        margin-left: 0!important;
+    }
+    
+    .nav1 .cale, .address {
+        text-align: center;
+    }
+    
+    .highlightpost .col-md-8 {
+        padding-right: 15px!important;
+    }
+    
+    .highlightpost .col-md-4 {
+        padding-left: 15px!important;
+    }
+    
+    .postbody .epost1 {
+        padding-bottom: 0!important;
+        border-bottom: none;
+    }
+    
+    .adborder {
+        width: 100%!important;
+    }
+}
